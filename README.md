@@ -56,18 +56,65 @@ git add .
 git commit -m "Added code for team-awesome"
 git push origin team-awesome
 ```
-**Important Notes**
+8. **Visuals Submission**
+   Participants are also advised to share the screen-shots of their graphs,
+maps and other visualization techniques creating a folder in their branch.
+
+## Important Notes
 - Do NOT push to the main branch. Always create and push to your team's branch.
 
 - Ensure your branch name is unique and matches your team name exactly.
 
 - If you encounter any issues, reach out to the event organizers for assistance.
 
-**Need Help?**
+## Dataset Information
+
+The dataset for the competition is the **Breast Cancer Wisconsin (Diagnostic) Data Set**. The goal is to predict whether the cancer is benign or malignant. Below are the details:
+
+### About the Dataset
+
+- Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.  
+
+### Attribute Information
+
+1) ID number  
+2) Diagnosis (M = malignant, B = benign)  
+3) Ten real-valued features are computed for each cell nucleus:  
+   - radius (mean of distances from center to points on the perimeter)  
+   - texture (standard deviation of gray-scale values)  
+   - perimeter  
+   - area  
+   - smoothness (local variation in radius lengths)  
+   - compactness (perimeter^2 / area - 1.0)  
+   - concavity (severity of concave portions of the contour)  
+   - concave points (number of concave portions of the contour)  
+   - symmetry  
+   - fractal dimension ("coastline approximation" - 1)  
+
+- The mean, standard error, and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features.  
+- All feature values are recoded with four significant digits.  
+- Missing attribute values: none  
+- Class distribution: 357 benign, 212 malignant  
+
+
+
+## Evaluation Criteria
+The evaluation of your submission will be based on the following criteria:
+
+- **Code Quality**: Clean, well-structured, and readable code.
+
+- **Functionality**: Does the code work as intended?
+
+- **Innovation**: Creative and unique approach to solving the problem.
+
+- **Documentation**: Clear and concise documentation of your code and approach.
+
+For detailed` evaluation` and `level` guidelines, download the Evaluation PDF [here](https://drive.google.com/drive/u/0/folders/1d71udIx71MQPo4YPp3lL_cb_yc_J7YGm)
+
+## Need Help?
 If you have any questions or face issues, feel free to contact the event organizers or open an issue in this repository.
 
-Happy coding!
-
-Organized by GDGOC SU
+## Happy Coding!
+*Organized by GDGOC SU 
 Event: Data Crunch
-Repository: Data-Crunch
+Repository: Data-Crunch*
